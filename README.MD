@@ -2,6 +2,8 @@
 
 Here you can find some examples of using Serenity BDD. This repo is used as git submodule
 
+## gradle
+
 To build this project you should:
 
  - initialize gradle wrapper with command ```gradle wrapper ```
@@ -10,4 +12,10 @@ To build this project you should:
 Also you can:
 
  - load all dependencies for project in folder lib with command ``` gradle copyDeps ```
+ 
+## maven
+
+To build this project you should
+
+ - run ``` mvn clean verify``` 
  
