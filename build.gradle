@@ -64,5 +64,4 @@ task copyDeps(type: Copy) {
     into project.projectDir.path+"/lib"
 }
 
-
 gradle.startParameter.continueOnFailure = true
