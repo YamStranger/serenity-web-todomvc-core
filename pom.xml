@@ -11,10 +11,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>ProjectDependencyHelper-version</serenity.version>
-        <serenity.maven.version>ProjectDependencyHelper-version</serenity.maven.version>
-        <serenity.cucumber.version>ProjectDependencyHelper-version</serenity.cucumber.version>
-        <serenity.jbehave.version>ProjectDependencyHelper-version</serenity.jbehave.version>
+        <serenity.version>1.1.26</serenity.version>
+        <serenity.maven.version>1.1.26</serenity.maven.version>
+        <serenity.cucumber.version>1.1.5</serenity.cucumber.version>
+        <serenity.jbehave.version>1.6.0</serenity.jbehave.version>
     </properties>
     <repositories>
         <repository>
@@ -43,7 +43,7 @@
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-journey</artifactId>
+            <artifactId>serenity-screenplay</artifactId>
             <version>${serenity.version}</version>
         </dependency>
         <dependency>
